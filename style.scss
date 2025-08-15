@@ -1,0 +1,41 @@
+:root{
+    --brand-color:#c0022b;
+--section-heading:28px;
+--global-font-size: 14px;
+}
+.button-primary{
+    font-size: 14px;
+    color: #fff;
+   font-weight: 400;
+   background: #0142AD;
+   text-decoration: none;
+   display: inline-block;
+height: 40px;
+width: 160px;
+display: flex;
+justify-content: center;
+align-items: center;
+   border-radius:3px;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #323232;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contanier{
+    width: 1280px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

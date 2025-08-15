@@ -1,0 +1,41 @@
+:root {
+  --brand-color:#c0022b;
+  --section-heading:28px;
+  --global-font-size: 14px;
+}
+
+.button-primary, a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  background: #0142AD;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3px;
+}
+
+.button-secondary {
+  border: solid 1px #0142AD;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0142AD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  color: var(--brand-color);
+  font-size: var(--global-font-size);
+}
